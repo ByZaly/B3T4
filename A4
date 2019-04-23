@@ -1,0 +1,15 @@
+#include <conio.h>
+#include <stdio.h>
+#define A1 9/5
+#define B2 32
+int main ()
+{
+  float celsio;
+  float Fah;
+  printf("Coloque los grados Celsius");
+  scanf("%f",&Celsio);
+  Fah=((A1*Cel)+B2);
+  printf("La temperatura a Fahrenheit es:%f",Fah);
+  getch();
+  return 0;
+}

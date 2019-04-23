@@ -1,0 +1,16 @@
+#include <conio.h>
+#include <stdio.h>
+int main ()
+{
+  float HAltura;
+  float Base;
+  float resul;
+  printf("Inserte la altura del Rectangulo\n");
+  scanf("%f",&HAltura);
+  printf("Inserte la base del Rectangulo\n");
+  scanf("%f",&Base);
+  resul=HAltura*Base;
+  printf("El Area del rectangulo es:%f\n",resul);
+  getch ();
+  return 0;
+}

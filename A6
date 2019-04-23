@@ -1,0 +1,17 @@
+#include <conio.h>
+#include <stdio.h>
+#define dato 80
+int main ()
+{
+  float paga;
+  int Cantidad_hijos;
+  float resul;
+  printf("Inserte el suedo base");
+  scanf("%f",&paga);
+  printf("Inserte la cantidad de hijos");
+  scanf("%d",&Cantidad_hijos);
+  resul=sueldo+(dato*Catidad_hijos);
+  printf("La paga es de:%f",resul);
+  getch ();
+  return 0;
+}

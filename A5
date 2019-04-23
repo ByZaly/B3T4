@@ -1,0 +1,16 @@
+#include <conio.h>
+#include <stdio.h>
+int main ()
+{
+  float deposit;
+  float resul;
+  float edad;
+  printf("Cual es el deposito");
+  scanf("%f",&deposit);
+  printf("Cuanto tiempo ha sido?");
+  scanf("%f",&edad);
+  resul=(deposit*(1+%)*edad);
+  printf("El Interes Compuesto es:%f\n",resul);
+  getch ();
+  return 0;
+}
